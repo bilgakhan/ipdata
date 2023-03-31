@@ -36,10 +36,9 @@ func main() {
 	if err != nil {
 		panic(err)
 	}
-	fmt.Printf("Siz kiritgan IP %s bo'yicha ma'lumot\n", ip)
+	fmt.Printf("IP %s", ip)
 	fmt.Printf("Country: %s\n", info.Country)
 	fmt.Printf("City: %s\n", info.City)
 	fmt.Printf("ISP: %s\n", info.ISP)
 	fmt.Printf("Time Zone: %s\n", info.TZ)
-
 }
