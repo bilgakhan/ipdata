@@ -20,4 +20,4 @@ arch = amd64 yoki arm64 (Intel/AMD yoki Armga asoslangan CPU)
 
 ## Ogohlantirish: dastur tufayli yuzaga keladigan har qanday holatda ham muallif javobgar emas!
 
-# Anvar Alimov (@cosmoasx) - Go ❤️
+# Anvar Alimov (@alimov18) - Go ❤️
