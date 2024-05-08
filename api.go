@@ -15,7 +15,7 @@ type IPInfo struct {
 }
 
 func main() {
-	fmt.Print("Enter IP address: ")
+	fmt.Print("IP manzil/domen kiriting: ")
 	var ip string
 	fmt.Scanln(&ip)
 
@@ -37,8 +37,8 @@ func main() {
 		panic(err)
 	}
 	fmt.Printf("IP %s", ip)
-	fmt.Printf("Country: %s\n", info.Country)
-	fmt.Printf("City: %s\n", info.City)
-	fmt.Printf("ISP: %s\n", info.ISP)
-	fmt.Printf("Time Zone: %s\n", info.TZ)
+	fmt.Printf("Mamlakat: %s\n", info.Country)
+	fmt.Printf("Shahar: %s\n", info.City)
+	fmt.Printf("Provayder: %s\n", info.ISP)
+	fmt.Printf("Vaqt Zonasi: %s\n", info.TZ)
 }
